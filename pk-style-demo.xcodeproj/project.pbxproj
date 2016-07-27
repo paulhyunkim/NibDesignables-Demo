@@ -7,21 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		695AB0E81D46929F0090B2AA /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB0E71D46929F0090B2AA /* Styles.swift */; };
+		695AB0EA1D4694290090B2AA /* StyleHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB0E91D4694290090B2AA /* StyleHelpers.swift */; };
+		69CB870E1D48413500F138A7 /* MusicTrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CB870C1D48413500F138A7 /* MusicTrackCell.swift */; };
+		69CB870F1D48413500F138A7 /* MusicTrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CB870D1D48413500F138A7 /* MusicTrackCell.xib */; };
 		69DB91A11D42CA6400E3AAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB91A01D42CA6400E3AAF1 /* AppDelegate.swift */; };
-		69DB91A31D42CA6400E3AAF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB91A21D42CA6400E3AAF1 /* ViewController.swift */; };
+		69DB91A31D42CA6400E3AAF1 /* LightBulbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB91A21D42CA6400E3AAF1 /* LightBulbViewController.swift */; };
 		69DB91A61D42CA6400E3AAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DB91A41D42CA6400E3AAF1 /* Main.storyboard */; };
 		69DB91A81D42CA6400E3AAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DB91A71D42CA6400E3AAF1 /* Assets.xcassets */; };
 		69DB91AB1D42CA6400E3AAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DB91A91D42CA6400E3AAF1 /* LaunchScreen.storyboard */; };
+		69DB91C71D42CB3800E3AAF1 /* NibDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB91C61D42CB3800E3AAF1 /* NibDesignableView.swift */; };
+		69DB91D31D42E41B00E3AAF1 /* PokerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB91D21D42E41B00E3AAF1 /* PokerView.swift */; };
+		69DB91D51D42E42D00E3AAF1 /* PokerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DB91D41D42E42D00E3AAF1 /* PokerView.xib */; };
+		69DB91D91D42E6B200E3AAF1 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB91D81D42E6B200E3AAF1 /* NumberPadView.swift */; };
+		69F866E81D4746BC00D3276C /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F866E71D4746BC00D3276C /* MusicListViewController.swift */; };
+		69F866EA1D47485100D3276C /* MusicTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F866E91D47485100D3276C /* MusicTrack.swift */; };
+		69F866EC1D4751B700D3276C /* MusicCollectionTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F866EB1D4751B700D3276C /* MusicCollectionTableDataSource.swift */; };
+		69F866EE1D47DC1900D3276C /* DesignableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F866ED1D47DC1900D3276C /* DesignableTableView.swift */; };
+		69F866F31D4815AA00D3276C /* LightBulbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F866F21D4815AA00D3276C /* LightBulbView.swift */; };
+		69F866F51D48175D00D3276C /* LightBulbView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F866F41D48175D00D3276C /* LightBulbView.xib */; };
+		69F866F81D481EDD00D3276C /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F866F71D481EDD00D3276C /* SwitchView.swift */; };
+		69F866FA1D481EE700D3276C /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F866F91D481EE700D3276C /* SwitchView.xib */; };
+		69F866FE1D48394C00D3276C /* PokerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F866FD1D48394C00D3276C /* PokerViewController.swift */; };
+		69F867001D483BE600D3276C /* NumberPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F866FF1D483BE600D3276C /* NumberPadView.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		69DB91C31D42CA9000E3AAF1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		695AB0E71D46929F0090B2AA /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		695AB0E91D4694290090B2AA /* StyleHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleHelpers.swift; sourceTree = "<group>"; };
+		69CB870C1D48413500F138A7 /* MusicTrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTrackCell.swift; sourceTree = "<group>"; };
+		69CB870D1D48413500F138A7 /* MusicTrackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicTrackCell.xib; sourceTree = "<group>"; };
 		69DB919D1D42CA6400E3AAF1 /* pk-style-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pk-style-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DB91A01D42CA6400E3AAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69DB91A21D42CA6400E3AAF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69DB91A21D42CA6400E3AAF1 /* LightBulbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightBulbViewController.swift; sourceTree = "<group>"; };
 		69DB91A51D42CA6400E3AAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69DB91A71D42CA6400E3AAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69DB91AA1D42CA6400E3AAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69DB91AC1D42CA6400E3AAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DB91C61D42CB3800E3AAF1 /* NibDesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibDesignableView.swift; sourceTree = "<group>"; };
+		69DB91D21D42E41B00E3AAF1 /* PokerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerView.swift; sourceTree = "<group>"; };
+		69DB91D41D42E42D00E3AAF1 /* PokerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PokerView.xib; sourceTree = "<group>"; };
+		69DB91D81D42E6B200E3AAF1 /* NumberPadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
+		69F866E71D4746BC00D3276C /* MusicListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
+		69F866E91D47485100D3276C /* MusicTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTrack.swift; sourceTree = "<group>"; };
+		69F866EB1D4751B700D3276C /* MusicCollectionTableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCollectionTableDataSource.swift; sourceTree = "<group>"; };
+		69F866ED1D47DC1900D3276C /* DesignableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTableView.swift; sourceTree = "<group>"; };
+		69F866F21D4815AA00D3276C /* LightBulbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightBulbView.swift; sourceTree = "<group>"; };
+		69F866F41D48175D00D3276C /* LightBulbView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LightBulbView.xib; sourceTree = "<group>"; };
+		69F866F71D481EDD00D3276C /* SwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		69F866F91D481EE700D3276C /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		69F866FD1D48394C00D3276C /* PokerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerViewController.swift; sourceTree = "<group>"; };
+		69F866FF1D483BE600D3276C /* NumberPadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberPadView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69CB870A1D4840A500F138A7 /* PokerView */ = {
+			isa = PBXGroup;
+			children = (
+				69DB91D21D42E41B00E3AAF1 /* PokerView.swift */,
+				69DB91D41D42E42D00E3AAF1 /* PokerView.xib */,
+			);
+			name = PokerView;
+			sourceTree = "<group>";
+		};
+		69CB87101D48416000F138A7 /* MusicListTableView */ = {
+			isa = PBXGroup;
+			children = (
+				69F866ED1D47DC1900D3276C /* DesignableTableView.swift */,
+			);
+			name = MusicListTableView;
+			sourceTree = "<group>";
+		};
 		69DB91941D42CA6300E3AAF1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +120,79 @@
 		69DB919F1D42CA6400E3AAF1 /* pk-style-demo */ = {
 			isa = PBXGroup;
 			children = (
+				69CB870C1D48413500F138A7 /* MusicTrackCell.swift */,
+				69CB870D1D48413500F138A7 /* MusicTrackCell.xib */,
+				69F866FC1D48384900D3276C /* Storyboards */,
+				69F866FB1D48383E00D3276C /* View Controllers */,
+				69F866EF1D48140F00D3276C /* View Components */,
 				69DB91A01D42CA6400E3AAF1 /* AppDelegate.swift */,
-				69DB91A21D42CA6400E3AAF1 /* ViewController.swift */,
-				69DB91A41D42CA6400E3AAF1 /* Main.storyboard */,
 				69DB91A71D42CA6400E3AAF1 /* Assets.xcassets */,
 				69DB91A91D42CA6400E3AAF1 /* LaunchScreen.storyboard */,
 				69DB91AC1D42CA6400E3AAF1 /* Info.plist */,
+				69DB91C61D42CB3800E3AAF1 /* NibDesignableView.swift */,
+				695AB0E71D46929F0090B2AA /* Styles.swift */,
+				695AB0E91D4694290090B2AA /* StyleHelpers.swift */,
+				69F866E91D47485100D3276C /* MusicTrack.swift */,
+				69F866EB1D4751B700D3276C /* MusicCollectionTableDataSource.swift */,
 			);
 			path = "pk-style-demo";
+			sourceTree = "<group>";
+		};
+		69F866EF1D48140F00D3276C /* View Components */ = {
+			isa = PBXGroup;
+			children = (
+				69CB87101D48416000F138A7 /* MusicListTableView */,
+				69CB870A1D4840A500F138A7 /* PokerView */,
+				69F866F61D481EBD00D3276C /* SwitchView */,
+				69F866F11D48142A00D3276C /* LightBulbView */,
+				69F866F01D48141F00D3276C /* NumberPadView */,
+			);
+			name = "View Components";
+			sourceTree = "<group>";
+		};
+		69F866F01D48141F00D3276C /* NumberPadView */ = {
+			isa = PBXGroup;
+			children = (
+				69DB91D81D42E6B200E3AAF1 /* NumberPadView.swift */,
+				69F866FF1D483BE600D3276C /* NumberPadView.xib */,
+			);
+			name = NumberPadView;
+			sourceTree = "<group>";
+		};
+		69F866F11D48142A00D3276C /* LightBulbView */ = {
+			isa = PBXGroup;
+			children = (
+				69F866F21D4815AA00D3276C /* LightBulbView.swift */,
+				69F866F41D48175D00D3276C /* LightBulbView.xib */,
+			);
+			name = LightBulbView;
+			sourceTree = "<group>";
+		};
+		69F866F61D481EBD00D3276C /* SwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				69F866F71D481EDD00D3276C /* SwitchView.swift */,
+				69F866F91D481EE700D3276C /* SwitchView.xib */,
+			);
+			name = SwitchView;
+			sourceTree = "<group>";
+		};
+		69F866FB1D48383E00D3276C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69DB91A21D42CA6400E3AAF1 /* LightBulbViewController.swift */,
+				69F866E71D4746BC00D3276C /* MusicListViewController.swift */,
+				69F866FD1D48394C00D3276C /* PokerViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		69F866FC1D48384900D3276C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				69DB91A41D42CA6400E3AAF1 /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +205,7 @@
 				69DB91991D42CA6400E3AAF1 /* Sources */,
 				69DB919A1D42CA6400E3AAF1 /* Frameworks */,
 				69DB919B1D42CA6400E3AAF1 /* Resources */,
+				69DB91C31D42CA9000E3AAF1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,8 +255,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				69DB91AB1D42CA6400E3AAF1 /* LaunchScreen.storyboard in Resources */,
+				69F866F51D48175D00D3276C /* LightBulbView.xib in Resources */,
+				69F867001D483BE600D3276C /* NumberPadView.xib in Resources */,
+				69DB91D51D42E42D00E3AAF1 /* PokerView.xib in Resources */,
 				69DB91A81D42CA6400E3AAF1 /* Assets.xcassets in Resources */,
 				69DB91A61D42CA6400E3AAF1 /* Main.storyboard in Resources */,
+				69CB870F1D48413500F138A7 /* MusicTrackCell.xib in Resources */,
+				69F866FA1D481EE700D3276C /* SwitchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +272,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69DB91A31D42CA6400E3AAF1 /* ViewController.swift in Sources */,
+				695AB0E81D46929F0090B2AA /* Styles.swift in Sources */,
+				69F866F81D481EDD00D3276C /* SwitchView.swift in Sources */,
+				69DB91C71D42CB3800E3AAF1 /* NibDesignableView.swift in Sources */,
+				69F866EE1D47DC1900D3276C /* DesignableTableView.swift in Sources */,
+				69DB91A31D42CA6400E3AAF1 /* LightBulbViewController.swift in Sources */,
+				69CB870E1D48413500F138A7 /* MusicTrackCell.swift in Sources */,
+				69F866EA1D47485100D3276C /* MusicTrack.swift in Sources */,
+				695AB0EA1D4694290090B2AA /* StyleHelpers.swift in Sources */,
 				69DB91A11D42CA6400E3AAF1 /* AppDelegate.swift in Sources */,
+				69F866FE1D48394C00D3276C /* PokerViewController.swift in Sources */,
+				69F866E81D4746BC00D3276C /* MusicListViewController.swift in Sources */,
+				69F866F31D4815AA00D3276C /* LightBulbView.swift in Sources */,
+				69DB91D31D42E41B00E3AAF1 /* PokerView.swift in Sources */,
+				69DB91D91D42E6B200E3AAF1 /* NumberPadView.swift in Sources */,
+				69F866EC1D4751B700D3276C /* MusicCollectionTableDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +438,7 @@
 				69DB91B11D42CA6400E3AAF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

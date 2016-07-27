@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69DB919C1D42CA6400E3AAF1"
-               BuildableName = "pk-style-demo.app"
-               BlueprintName = "pk-style-demo"
+               BlueprintIdentifier = "69DB91B61D42CA9000E3AAF1"
+               BuildableName = "pk-style-demo-designables.framework"
+               BlueprintName = "pk-style-demo-designables"
                ReferencedContainer = "container:pk-style-demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69DB919C1D42CA6400E3AAF1"
-            BuildableName = "pk-style-demo.app"
-            BlueprintName = "pk-style-demo"
-            ReferencedContainer = "container:pk-style-demo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69DB919C1D42CA6400E3AAF1"
-            BuildableName = "pk-style-demo.app"
-            BlueprintName = "pk-style-demo"
+            BlueprintIdentifier = "69DB91B61D42CA9000E3AAF1"
+            BuildableName = "pk-style-demo-designables.framework"
+            BlueprintName = "pk-style-demo-designables"
             ReferencedContainer = "container:pk-style-demo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69DB919C1D42CA6400E3AAF1"
-            BuildableName = "pk-style-demo.app"
-            BlueprintName = "pk-style-demo"
+            BlueprintIdentifier = "69DB91B61D42CA9000E3AAF1"
+            BuildableName = "pk-style-demo-designables.framework"
+            BlueprintName = "pk-style-demo-designables"
             ReferencedContainer = "container:pk-style-demo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
