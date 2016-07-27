@@ -10,20 +10,20 @@ import UIKit
 
 class PokerViewController: UIViewController {
 
-    @IBOutlet weak var selectedNumberLabel: UILabel!
-    @IBOutlet weak var numberPadView: NumberPadView!
-    
-    override func viewDidLoad() {
-        numberPadView.delegate = self
-    }
+//    @IBOutlet weak var selectedNumberLabel: UILabel!
+//    @IBOutlet weak var numberPadView: NumberPadView!
+//    
+//    override func viewDidLoad() {
+//        numberPadView.delegate = self
+//    }
 
 }
 
-extension PokerViewController: NumberPadDelegate {
-    
-    func numberPadDidPressButton(button: UIButton) {
-        guard let buttonTitle = button.titleForState(UIControlState.Normal) else { return }
-        selectedNumberLabel.text = buttonTitle
-    }
-    
-}
+//extension PokerViewController: NumberPadDelegate {
+//    
+//    func numberPadDidPressButton(button: UIButton) {
+//        guard let buttonTitle = button.titleForState(UIControlState.Normal) else { return }
+//        selectedNumberLabel.text = buttonTitle
+//    }
+//    
+//}

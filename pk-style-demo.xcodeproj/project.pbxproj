@@ -11,6 +11,7 @@
 		695AB0EA1D4694290090B2AA /* StyleHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB0E91D4694290090B2AA /* StyleHelpers.swift */; };
 		69CB870E1D48413500F138A7 /* MusicTrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CB870C1D48413500F138A7 /* MusicTrackCell.swift */; };
 		69CB870F1D48413500F138A7 /* MusicTrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CB870D1D48413500F138A7 /* MusicTrackCell.xib */; };
+		69CB87121D484C9600F138A7 /* DesignableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CB87111D484C9600F138A7 /* DesignableViewController.swift */; };
 		69DB91A11D42CA6400E3AAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB91A01D42CA6400E3AAF1 /* AppDelegate.swift */; };
 		69DB91A31D42CA6400E3AAF1 /* LightBulbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB91A21D42CA6400E3AAF1 /* LightBulbViewController.swift */; };
 		69DB91A61D42CA6400E3AAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DB91A41D42CA6400E3AAF1 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		695AB0E91D4694290090B2AA /* StyleHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleHelpers.swift; sourceTree = "<group>"; };
 		69CB870C1D48413500F138A7 /* MusicTrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTrackCell.swift; sourceTree = "<group>"; };
 		69CB870D1D48413500F138A7 /* MusicTrackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicTrackCell.xib; sourceTree = "<group>"; };
+		69CB87111D484C9600F138A7 /* DesignableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableViewController.swift; sourceTree = "<group>"; };
 		69DB919D1D42CA6400E3AAF1 /* pk-style-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pk-style-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DB91A01D42CA6400E3AAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69DB91A21D42CA6400E3AAF1 /* LightBulbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightBulbViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				69F866ED1D47DC1900D3276C /* DesignableTableView.swift */,
+				69CB87111D484C9600F138A7 /* DesignableViewController.swift */,
 			);
 			name = MusicListTableView;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				69F866EE1D47DC1900D3276C /* DesignableTableView.swift in Sources */,
 				69DB91A31D42CA6400E3AAF1 /* LightBulbViewController.swift in Sources */,
 				69CB870E1D48413500F138A7 /* MusicTrackCell.swift in Sources */,
+				69CB87121D484C9600F138A7 /* DesignableViewController.swift in Sources */,
 				69F866EA1D47485100D3276C /* MusicTrack.swift in Sources */,
 				695AB0EA1D4694290090B2AA /* StyleHelpers.swift in Sources */,
 				69DB91A11D42CA6400E3AAF1 /* AppDelegate.swift in Sources */,

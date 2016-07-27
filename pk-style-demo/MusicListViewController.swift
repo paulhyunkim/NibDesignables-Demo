@@ -8,30 +8,36 @@
 
 import UIKit
 
-class MusicListViewController: UIViewController {
+class MusicListViewController: DesignableViewController {
 
     @IBOutlet weak var musicListTableView: DesignableTableView!
-
-    var myTableView: UITableView = UITableView()
     
     var musicTracks = [MusicTrack]()
     
-//    override func prepareForInterfaceBuilder() {
-//        super.prepareForInterfaceBuilder()
-//        setupViews()
-//    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupViewController()
+    }
+    
+    func setupViewController() {
+        musicListTableView.registerNibWithName("MusicTrackCell")
         
+        musicListTableView.delegate = self
+        musicListTableView.dataSource = self
+        musicListTableView.estimatedRowHeight = 65
+        musicListTableView.rowHeight = UITableViewAutomaticDimension
         
-        setupViews()
+        let trackOne = MusicTrack(artist: "Drake", title: "One Dance", time: 173, image: nil)
+        let trackTwo = MusicTrack(artist: "Major Lazer", title: "Cold Water", time: 185, image: nil)
+        let trackThree = MusicTrack(artist: "Rihanna", title: "Needed Me", time: 191, image: nil)
+        musicTracks = [trackOne, trackTwo]
     }
     
 }
 
 
 extension MusicListViewController: UITableViewDataSource {
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return musicTracks.count
     }
@@ -45,41 +51,26 @@ extension MusicListViewController: UITableViewDataSource {
         return cell
     }
     
+}
+
+
+extension MusicListViewController: UITableViewDelegate {
     
+    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
     
 }
 
 
 extension MusicListViewController: DesignableTableViewProtocol {
-    func setupViews() {
-        #if !TARGET_INTERFACE_BUILDER
-            let bundle = NSBundle.mainBundle()
-        #else
-            let bundle = NSBundle(forClass: self.dynamicType)
-        #endif
-        
-        let nib = UINib(nibName: "MusicTrackCell", bundle: bundle)
-        
-        
-        myTableView.registerNib(nib, forCellReuseIdentifier: "MusicTrackCell")
-        
-        myTableView.delegate = self
-        myTableView.dataSource = self
-        
-        myTableView.estimatedRowHeight = 65
-        myTableView.rowHeight = UITableViewAutomaticDimension
-        
-        let trackOne = MusicTrack(artist: "Drake", title: "One Dance", time: 173, image: nil)
-        let trackTwo = MusicTrack(artist: "Major Lazer", title: "Cold Water", time: 185, image: nil)
-        let trackThree = MusicTrack(artist: "Rihanna", title: "Needed Me", time: 191, image: nil)
-        musicTracks = [trackOne, trackTwo, trackThree]
-        
-        myTableView.reloadData()
+    
+    func prepareDesignableTableViewForInterfaceBuilder(designableTableView: DesignableTableView) {
+        musicListTableView = designableTableView
+        setupViewController()
+
+        musicListTableView.reloadData()
     }
+    
 }
 
-extension MusicListViewController: UITableViewDelegate {
-    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
-    }
-}

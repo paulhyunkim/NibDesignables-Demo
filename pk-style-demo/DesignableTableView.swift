@@ -9,11 +9,8 @@
 import UIKit
 
 protocol DesignableTableViewProtocol: class {
-    var myTableView: UITableView { get set }
-    func setupViews()
-//    func designableTableView() -> UITableView
+    func prepareDesignableTableViewForInterfaceBuilder(designableTableView: DesignableTableView)
 }
-
 
 @IBDesignable class DesignableTableView: UITableView {
     
@@ -25,9 +22,19 @@ protocol DesignableTableViewProtocol: class {
         guard let designableDataSource = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType)).instantiateViewControllerWithIdentifier(delegateClass) as? DesignableTableViewProtocol else {
             return
         }
-        designableDataSource.myTableView = self
-        designableDataSource.setupViews()
-
+        
+        designableDataSource.prepareDesignableTableViewForInterfaceBuilder(self)
+    }
+    
+    func registerNibWithName(nibName: String) {
+        #if !TARGET_INTERFACE_BUILDER
+            let bundle = NSBundle.mainBundle()
+        #else
+            let bundle = NSBundle(forClass: self.dynamicType)
+        #endif
+        
+        let nib = UINib(nibName: nibName, bundle: bundle)
+        self.registerNib(nib, forCellReuseIdentifier: nibName)
     }
     
 }
